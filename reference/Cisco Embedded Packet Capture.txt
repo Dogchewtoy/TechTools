@@ -1,0 +1,87 @@
+Use the steps below to perform an embedded packet capture on a Cisco Router
+
+
+Cisco IOS-based Routers (12.4(20)T or later)
+
+! Config mode (router(config)#)
+1. Create an access list used to filter packets captured (highly recommended if you know what you're looking for)
+
+ ip access-list ext packet-cap-filter
+  permit ip host 10.131.2.40 host 10.26.25.247
+  permit ip host 10.26.25.247 host 10.131.2.40
+
+  
+! This command and all subsequent commands performed from privileged exec mode (router#)
+2.  Create a local packet capture buffer
+ 
+ monitor capture buffer packet-cap size 2048 max-size 4096 circular (can be linear to stop when buffer max reached)
+
+3.  Associate packet capture buffer with access list filter
+
+ monitor capture buffer packet-cap filter access-list packet-cap-filter
+ 
+4.  Create a packet capture point - this is the operation that buffers captured packets
+
+ monitor capture point ip cef cap-in gi0/0 both  <---- you can select the interface to perform the packet capture and the direction (in/out/both).  Additionally, you can capture process-switched packets (in/out/from-us) to look for traffic punted to the CPU
+
+5.  Associate the capture point with the capture buffer
+
+ monitor capture point associate cap-in packet-cap
+
+ 6.  Start the packet capture
+ 
+ monitor capture point start cap-in <---- use monitor capture point stop cap-in to stop the capture
+ 
+ 7.  Operation
+ 
+ monitor capture buffer packet-cap clear <---- Clears contents of packet capture buffer
+
+ monitor capture buffer packet-cap export tftp://10.131.2.40/packet.pcap <---- Export packet capture for analysis, can be Flash, TFTP, FTP, HTTP, etc.
+
+Show Commands
+
+show monitor capture buffer all parameters <---- Display the parameters associated with the Capture activities, good for cleanup
+
+show monitor capture point all <---- Display capture point and status
+
+show monitor capture buffer packet-cap <---- Display contents of packet capture buffer
+
+
+
+
+
+
+Cisco IOS-XE based Routers
+
+  
+! This command and all subsequent commands performed from privileged exec mode (router#)
+2.  Create a packet capture point - this is the operation that buffers captured packets
+
+ monitor capture cap-in interface gi0/0/1 both <---- you can select the interface to perform the packet capture and the direction (in/out/both).  Additionally, you can capture process-switched (control-plane) packets (in/out/from-us) to look for traffic punted to the CPU
+
+5.  Associate the capture point with the filter
+
+monitor capture cap-in match ipv4 host 10.131.2.40 host 10.26.25.247 buffer circular size 2  <---- Other options available
+
+ 6.  Start the packet capture
+ 
+ monitor capture cap-in start <---- use monitor capture point cap-in stop  to stop the capture
+ 
+ 7.  Operation
+ 
+ monitor capture cap-in  clear <---- Clears contents of packet capture buffer
+
+ monitor capture cap-in export tftp://10.131.2.40/packet.pcap <---- Export packet capture for analysis, can be Flash, TFTP, FTP, HTTP, etc.
+ 
+ no monitor capture cap-in <---- Remove capture-related commands
+
+Show Commands
+
+show monitor capture cap-in brief  <---- Display capture point summary
+
+show monitor capture cap-in detailed <---- Display capture point contents
+
+show monitor capture buffer packet-cap <---- Display contents of packet capture buffer
+
+
+

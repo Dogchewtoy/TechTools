@@ -1,0 +1,14 @@
+sqlio -kW -s120 -fsequential -t8 -o8 -b8 -LS -Fparam.txt timeout /T 10
+
+
+
+sqlio -kR -s120 -frandom -t8 -o8 -b8 -LS -Fparam2.txt timeout /T 10
+
+
+
+
+sqlio -kW -s120 -frandom -t8 -o8 -b8 -LS -Fparam3.txt timeout /T 10
+
+
+
+sqlio -kR -s120 -fsequential -t8 -o8 -b8 -LS -Fparam4.txt timeout /T 10

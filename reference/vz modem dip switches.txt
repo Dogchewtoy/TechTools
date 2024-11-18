@@ -1,0 +1,3 @@
+USR Modem Dip Switch Settings - OOB
+
+1, 4, 7 down

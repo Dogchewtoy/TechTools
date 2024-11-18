@@ -1,0 +1,60 @@
+no vpnclient enable
+
+group-policy lybcc internal
+group-policy lybcc attributes
+ vpn-tunnel-protocol IPSec 
+ split-tunnel-policy tunnelall
+ split-tunnel-network-list none
+ password-storage enable
+ ipsec-udp enable
+ nem enable
+
+tunnel-group lybcc type remote-access
+tunnel-group lybcc general-attributes
+ authentication-server-group LOCAL
+ authentication-server-group (inside) LOCAL
+ default-group-policy lybcc
+
+tunnel-group lybcc ipsec-attributes
+ pre-shared-key 4A6xDgmO1Od}!cK
+
+crypto ipsec transform-set lybcc-xform esp-3des esp-sha-hmac
+
+crypto dynamic-map outside_dyn_map 60 ipsec-isakmp dynamic lybcc-xform
+
+crypto isakmp policy 60
+ authentication pre-share
+ encryption 3des
+ hash sha
+ group 2
+ lifetime 86400
+
+username lybsite password c_)r10U-6!xd9Zq
+
+
+
+object-group network lyb-cc
+ network-object 10.131.108.0 255.255.254.0
+
+access-list inside_nat0_outbound remark TrackIT ID 31639 - 10/29/2014
+access-list inside_nat0_outbound extended permit ip 10.131.0.0 255.255.0.0 object-group lyb-cc
+access-list inside_nat0_outbound extended permit ip 207.11.128.0 255.255.128.0 object-group lyb-cc
+
+access-list dmz_nat0_outbound remark TrackIT ID 31639 - 10/29/2014
+access-list dmz_nat0_outbound ext permit ip 10.131.0.0 255.255.0.0 object-group lyb-cc
+
+access-list inside line 198 remark TrackIT ID 31639 - 10/29/2014
+access-list inside line 199 ext permit ip 10.131.0.0 255.255.0.0 object-group lyb-cc
+access-list inside line 200 ext permit ip 207.11.128.0 255.255.128.0 object-group lyb-cc
+
+route outside 10.131.108.0 255.255.254.0 66.60.230.35
+
+access-list lybcc remark TrackIT ID 31639 - 10/29/2014
+access-list lybcc extended permit ip 10.131.0.0 255.255.0.0 object-group lyb-cc
+access-list lybcc extended permit ip 207.11.128.0 255.255.128.0 object-group lyb-cc
+
+
+
+
+
+
