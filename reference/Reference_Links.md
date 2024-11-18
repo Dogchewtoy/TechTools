@@ -2,13 +2,13 @@
 
 **Cyber Security**
 
-    * https://attack.mitre.org/
-    * https://www.cisa.gov/sites/default/files/2024-11/aa24-317a-2023-top-routinely-exploited-vulnerabilities.pdf
-    * https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1299.pdf
-    * https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf
+* https://attack.mitre.org/
+* https://www.cisa.gov/sites/default/files/2024-11/aa24-317a-2023-top-routinely-exploited-vulnerabilities.pdf
+* https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1299.pdf
+* https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf
 
 
 
 **Hiring, Work, and Employment Philosophy**
-    * https://www.m16g.com/p/hire-the-most-expensive-engineers
-    
+* https://www.m16g.com/p/hire-the-most-expensive-engineers
+
