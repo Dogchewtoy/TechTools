@@ -18,6 +18,7 @@
         * Pentera
         * HorizonAI
         * Bjorn (Raspberry Pi network scanner): https://github.com/infinition/Bjorn
+        * Road Tools: https://github.com/dirkjanm/ROADtools
     * Vulnerability Management 
         * Vulnerator: https://github.com/Vulnerator/Vulnerator/wiki
         * Vulnerator: https://vulnerator.github.io/Vulnerator/
@@ -30,6 +31,13 @@
     * Cloud Security
         * Recorded Future
         * Wiz
+    * File/Data Security/FIM
+        * Seclore
+        * OSSEC
+        * Tripwire
+    * CASB
+        * Proofpoint
+
 
 
 * Networking
@@ -46,6 +54,7 @@
         * Kemp
         * Azure Load Balancer (inludes Front Door, WAF, Geo LB, etc.)
     * Wireshark
+    * Orhan Ergun: https://orhanergun.net/labs
 
 
 * System Administration
@@ -93,7 +102,15 @@
     * VS Code
     * Terraform
     * Python
-    * Git
+    * Git (GitLab, GitHub, Bitbucket)
+
+* DevOps/DevSecOps
+    * Argo CD
+    * Jenkins
+    * SonarQube/SonarCloud
+    * Snyk
+    * Checkmarx
+
 
 * Data Protection
     * Rubrik

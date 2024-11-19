@@ -7,6 +7,7 @@
 * https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1299.pdf
 * https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf
 * DISA STIGS and STIG Viewer: https://public.cyber.mil/stigs/
+* CISA Training: https://niccs.cisa.gov/education-training/cisa-learning
 * CIS Benchmarks: https://www.cisecurity.org/cis-benchmarks
 * Cloud Security Alliance: https://cloudsecurityalliance.org/
 * OWASP Top 10: https://owasp.org/www-project-top-ten/
@@ -16,6 +17,9 @@
     * 27001/27002: https://www.iso.org/standard/27001
     * 27013/27014: https://www.iso.org/standard/78752.html
 * PCI-DSS: https://www.pcisecuritystandards.org/standards/pci-dss/
+* Watchtower Vulnerability Researchers: 
+    * https://labs.watchtowr.com/
+    * https://github.com/watchtowrlabs
 
 **Architecture**
 * https://wstomv.win.tue.nl/edu/2im24+2im25/add.html
