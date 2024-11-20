@@ -31,6 +31,7 @@
     * Cloud Security
         * Recorded Future
         * Wiz
+        * Thales
     * File/Data Security/FIM
         * Seclore
         * OSSEC
@@ -72,6 +73,8 @@
     * Observium
     * Hubble (Cilium Container Network)
     * Otterize (K8s)
+    * Gigamon
+    * Fluke
 
 
 * End User Tech

@@ -20,6 +20,7 @@
 * Watchtower Vulnerability Researchers: 
     * https://labs.watchtowr.com/
     * https://github.com/watchtowrlabs
+* https://www.darkreading.com/
 
 **Architecture**
 * https://wstomv.win.tue.nl/edu/2im24+2im25/add.html
