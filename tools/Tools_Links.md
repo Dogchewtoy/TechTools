@@ -11,6 +11,7 @@
         * Windows Defender
         * Trellix (McAfee)
         * Cortex XDR
+        * SentinelOne
     * Vulnerability Scanning
         * Tenable (Nessus)
         * Metasploit
@@ -56,6 +57,7 @@
         * Azure Load Balancer (inludes Front Door, WAF, Geo LB, etc.)
     * Wireshark
     * Orhan Ergun: https://orhanergun.net/labs
+    * Netbox IPAM
 
 
 * System Administration

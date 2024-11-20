@@ -21,6 +21,10 @@
     * https://labs.watchtowr.com/
     * https://github.com/watchtowrlabs
 * https://www.darkreading.com/
+* MS Ignite 2024
+    * https://techcommunity.microsoft.com/blog/microsoftsecurityandcompliance/unlock-proactive-defense-microsoft-security-exposure-management-now-generally-av/4303219
+    * https://ignite.microsoft.com/en-US/sessions/BRK324?wt.mc_ID=Ignite2024_esc_corp_bl_oo_bl_BON
+    * 
 
 **Architecture**
 * https://wstomv.win.tue.nl/edu/2im24+2im25/add.html
@@ -33,6 +37,8 @@
 * Azure
     * Johsn Savill Tech Training: https://www.youtube.com/@NTFAQGuy
     * Microsoft Learn: https://learn.microsoft.com/en-us/
+    * https://techcommunity.microsoft.com/blog/azurearcblog/introducing-azure-local-cloud-infrastructure-for-distributed-locations-enabled-b/4296017
+    
 * AWS
 * GCP
 * Oracle
