@@ -47,7 +47,10 @@
         * OSSEC
         * Tripwire
         * Varonis (discovery and classification)
-        * 
+    * Hardening Tools
+        * Microsoft Security Compliance Toolkit (LGPO): https://www.microsoft.com/en-us/download/details.aspx?id=55319
+        * STIG Manager: https://github.com/NUWCDIVNPT/stig-manager
+        * eMASSter (gov only?)
     * CASB
         * Proofpoint
     * MFA
