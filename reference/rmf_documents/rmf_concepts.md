@@ -41,5 +41,8 @@ This document describes the capabilities of a system, both present and future, h
 * 800-30: Risk Assessment Guide
 * 800-160: Systems Security Engineering
 * FIPS
-    * 199
-    * 200
+    * 140
+        * v2 and v3 both current
+        * deals with encryption and cryptography modules 
+    * 199: categorization of information and systems for US government entities
+    * 200: Minimum Security Requirements for Federal Information and Information Systems

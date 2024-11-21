@@ -19,6 +19,8 @@
         * SentinelOne
         * Threatlocker
     * Vulnerability Scanning
+        * Qualys
+        * Aviatrix
         * Tenable (Nessus)
         * Metasploit
         * Rapid 7
@@ -27,8 +29,9 @@
         * Bjorn (Raspberry Pi network scanner): https://github.com/infinition/Bjorn
         * Road Tools: https://github.com/dirkjanm/ROADtools
     * Vulnerability Management 
-        * Vulnerator: https://github.com/Vulnerator/Vulnerator/wiki
-        * Vulnerator: https://vulnerator.github.io/Vulnerator/
+        * Vulnerator: 
+            * https://github.com/Vulnerator/Vulnerator/wiki
+            * https://vulnerator.github.io/Vulnerator/
     * Passwords/PIM/PAM
         * SecureW2 (Passwordless Security Tool): https://www.securew2.com/
         * CyberArk
