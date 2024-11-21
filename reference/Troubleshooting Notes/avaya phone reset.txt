@@ -1,0 +1,6 @@
+reset ip-stations all-ip ip-network-region 4
+
+reset ip-stations all-ip ip-network-region 10
+
+
+

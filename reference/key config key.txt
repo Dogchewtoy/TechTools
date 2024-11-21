@@ -1,9 +1,0 @@
-key config-key password-encrypt AfwH1dek3y$
-password encryption aes
-
-
-
-crypto isakmp key 6 ^DAZ[PHMUf_KR]SGeS`FLQbIMeN_PaZ]]c^VVHeAAB address 0.0.0.0 
-
-crypto isakmp key AeMc567!dmvpn address 0.0.0.0
-

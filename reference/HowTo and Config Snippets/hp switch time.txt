@@ -1,0 +1,7 @@
+clock set 05/28/2014 15:25:00
+clock timezone us central
+clock summer-time
+exit
+
+write mem
+

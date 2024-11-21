@@ -1,8 +1,0 @@
-access-list 40 permit host 10.131.15.53
-access-list 40 permit host 10.131.15.146
-
-int range vlan 101 - 113
-ip directed-broadcast 40
-
-int vlan 20
-ip directed-broadcast 40

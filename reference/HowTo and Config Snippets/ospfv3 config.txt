@@ -1,0 +1,78 @@
+Old OSPFv2/v3
+
+interface GigabitEthernet2
+ description Labnet-2
+ ip address 172.16.100.202 255.255.255.0
+ ip ospf message-digest-key 1 md5 lab 
+ negotiation auto
+ ipv6 address FD00:2:172:16:100::202/64
+ ipv6 address FD00:172:20:101::2/64
+ ipv6 ospf 100 area 0
+
+
+router ospfv3 100
+ router-id 0.0.0.2
+ auto-cost reference-bandwidth 1024
+ !
+ address-family ipv6 unicast
+  passive-interface GigabitEthernet2
+ exit-address-family
+!
+router ospf 100
+ router-id 0.0.0.2
+ priority 100
+ auto-cost reference-bandwidth 1024
+ area 0 authentication message-digest
+ redistribute bgp 65000 subnets
+ passive-interface GigabitEthernet3
+ network 172.16.100.0 0.0.0.255 area 0
+!         
+
+
+
+
+New OSPF v3
+
+
+key chain lab
+ key 1
+   key-string secure 
+   cryptographic-algorithm hmac-sha-1
+
+
+int gi2
+
+ ospfv3 100 network broadcast
+ ospfv3 100 priority 180
+ ospfv3 100 authentication key-chain lab
+ ospfv3 100 ipv4 area 2
+ ospfv3 100 ipv6 area 2
+  
+router ospfv3 100
+ router-id 0.0.0.5
+ auto-cost reference-bandwidth 1024000
+ authentication mode deployment
+ passive-interface gi2
+ ! fs
+ address-family ipv4 unicast
+ 
+ exit-address-family
+ !
+ address-family ipv6 unicast
+
+ exit-address-family
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+

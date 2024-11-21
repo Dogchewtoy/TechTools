@@ -1,0 +1,10 @@
+dnscmd att1-gdc7 /recorddelete global.amec.com BOG-WAN-RT2 A
+
+dnscmd att1-gdc7 /recorddelete global.amec.com 254.41.131.10.in-addr.arpa PTR
+
+
+
+dnscmd att1-gdc7 /recordadd global.amec.com PRS2-WAN-RT1 /createptr A 10.180.169.240
+
+
+

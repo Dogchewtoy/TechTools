@@ -4,7 +4,12 @@
 **Tools**
 
 * Cyber Security
-    * SIEMs: Splunk, LogRhythm, Wazuh, SolarWinds, Graylog
+    * SIEMs
+        * Splunk
+        * LogRhythm
+        * Wazuh
+        * SolarWinds
+        * Graylog
     * Endpoint Security
         * Sophos
         * Bitdefender
@@ -12,6 +17,7 @@
         * Trellix (McAfee)
         * Cortex XDR
         * SentinelOne
+        * Threatlocker
     * Vulnerability Scanning
         * Tenable (Nessus)
         * Metasploit
@@ -23,12 +29,15 @@
     * Vulnerability Management 
         * Vulnerator: https://github.com/Vulnerator/Vulnerator/wiki
         * Vulnerator: https://vulnerator.github.io/Vulnerator/
-    * SecureW2 (Passwordless Security Tool): https://www.securew2.com/
+    * Passwords/PIM/PAM
+        * SecureW2 (Passwordless Security Tool): https://www.securew2.com/
+        * CyberArk
     * Email Security
         * Proofpoint
         * Mimecast
         * Microsoft ATP
         * Abnormal Security
+        * Slashnext (also smishing)
     * Cloud Security
         * Recorded Future
         * Wiz
@@ -37,9 +46,19 @@
         * Seclore
         * OSSEC
         * Tripwire
+        * Varonis (discovery and classification)
+        * 
     * CASB
         * Proofpoint
-
+    * MFA
+        * Microsoft Authenticator
+        * Duo
+        * Okta
+    * Company Security Scorecard
+        * Black Kite
+        * Bitsight
+        * UpGuard
+        * SecurityScorecard
 
 
 * Networking
@@ -61,9 +80,17 @@
 
 
 * System Administration
-    * MX Toolbox
-    * DMARCIAN
-
+    * Email
+        * MX Toolbox
+        * DMARCIAN
+    * Patching
+        * Ivanti
+        * Microsoft Arc
+    * Data Protection
+        * Rubrik
+        * Veeam
+        * Data Domain
+        * Commvault
 
 * Monitoring
     * Netdata: https://github.com/netdata/netdata
@@ -81,6 +108,10 @@
 
 * End User Tech
 
+* Endpoint Management
+    * JAMF (Mac)
+    * Intune
+    * Tanium
 
 * Operating Systems
     * Kali (regular and Purple)
@@ -117,8 +148,4 @@
     * Checkmarx
 
 
-* Data Protection
-    * Rubrik
-    * Veeam
-    * Data Domain
-    * Commvault
+
