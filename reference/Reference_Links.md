@@ -27,6 +27,9 @@
 * 3rd Party SOC Providers
     * Arctic Wolf
     * Avertium
+* Windows Hello/MFA and Login Process
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/%e2%80%9cwhy-are-my-users-not-prompted-for-mfa-as-expected%e2%80%9d/1449032
+    * https://www.wiresandwi.fi/blog/windows-network-authentication-sequence
 
 **Architecture**
 * https://wstomv.win.tue.nl/edu/2im24+2im25/add.html
@@ -40,6 +43,7 @@
     * Johsn Savill Tech Training: https://www.youtube.com/@NTFAQGuy
     * Microsoft Learn: https://learn.microsoft.com/en-us/
     * https://techcommunity.microsoft.com/blog/azurearcblog/introducing-azure-local-cloud-infrastructure-for-distributed-locations-enabled-b/4296017
+    * https://news.microsoft.com/ignite-2024-book-of-news/
 
 * AWS
 * GCP
