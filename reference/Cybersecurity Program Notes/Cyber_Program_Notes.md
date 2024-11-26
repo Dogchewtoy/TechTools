@@ -105,27 +105,27 @@
 
 **Security Architecture**
 
-    * Endpoint
-        * Device: AV, EDR, XDR, HIPS, disk encryption, MDM, device location
-        * Account: MFA, Conditional Access, UBA, Least Privilege, PIM/PAM
-    * Network Access: 802.1x, NAC, client isolation
-    * Network Transport: Secure Routing, VLAN assignment, VLAN trunking
-    * Network Segmentation: Macro to micro
-    * Network Boundary Services: ACL, IDS/IPS
-    * Network Services: DNS Security
-    * Network Edge: WAF, Reverse Proxy, DMZ, micro-segmentation
-    * Vulnerability Management
-        * Internal and external priv/non-priv vulnerability scans
-        * Regular pen tests (include automated)
-        * Consider agents for critical resources
-    * Application Development Security
-        * SAST in dev pipeline
-        * SCA
-        * DAST and IAST where possible
-        * Penetration Testing
-        * Scan repos for credentials and strings
-        * Managed IDs for cloud apps
-        * Standards: AppDev STIG, OWASP
+* Endpoint
+    * Device: AV, EDR, XDR, HIPS, disk encryption, MDM, device location
+    * Account: MFA, Conditional Access, UBA, Least Privilege, PIM/PAM
+* Network Access: 802.1x, NAC, client isolation
+* Network Transport: Secure Routing, VLAN assignment, VLAN trunking
+* Network Segmentation: Macro to micro
+* Network Boundary Services: ACL, IDS/IPS
+* Network Services: DNS Security
+* Network Edge: WAF, Reverse Proxy, DMZ, micro-segmentation
+* Vulnerability Management
+    * Internal and external priv/non-priv vulnerability scans
+    * Regular pen tests (include automated)
+    * Consider agents for critical resources
+* Application Development Security
+    * SAST in dev pipeline
+    * SCA
+    * DAST and IAST where possible
+    * Penetration Testing
+    * Scan repos for credentials and strings
+    * Managed IDs for cloud apps
+    * Standards: AppDev STIG, OWASP
 
 
 
