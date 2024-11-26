@@ -25,21 +25,108 @@
     * Zero Trust Additions: continuous authentication, conditional access, PAM, PIM, Federated SSO, user behavior analysis
 
 * Separation of Duties
+
 * Cyber security training/awareness program
+
 * Configuration Management
     * Backup appliance configurations
     * Change detection
     * Device hardening standards
+
 * Inventory Management
     * Supply Chain Management
     * CMDB
     * MDM/Device Management
     * Application Inventory
     * 3rd Party Software Inventory
+
 * Change Management Process
     * Change Mgmt Board
     * Change Mgmt Process
     * Change Mgmt Categories
+
+* Risk Management Process
+    * Asset Inventory with values
+    * Risk Inventory
+    * Security Impact Analyses
+    * Risk Mitigations
+    * Risk Acceptance (Documented)
+
+* Incident Response
+    * Pre-Incident 
+        * Planning, Testing, Gaming
+        * Categorization
+        * Communication Plan
+    * Detection
+    * Identification, Analysis, and Scoping
+    * Response
+    * Escalation
+    * Recovery
+    * Post-mortem
+
+* Backups
+    * Type
+    * Retention
+    * Replication
+    * Verify encryption keys are backed up
+
+* Contingency Planning
+    * Planning, Scoping, SLA definition
+    * COOP
+    * DR
+    * BCP
+
+* Media Control
+    * Internal
+    * External
+    * Removable
+    * Sharing
+    * Spills
+    * Decommission/Destruction
+
+* Security Architecture
+    * Endpoint
+        * Device: AV, EDR, XDR, HIPS, disk encryption, MDM, device location
+        * Account: MFA, Conditional Access, UBA, Least Privilege, PIM/PAM
+    * Network Access: 802.1x, NAC, client isolation
+    * Network Transport: Secure Routing, VLAN assignment, VLAN trunking
+    * Network Segmentation: Macro to micro
+    * Network Boundary Services: ACL, IDS/IPS
+    * Network Services: DNS Security
+    * Network Edge: WAF, Reverse Proxy, DMZ, micro-segmentation
+    * Vulnerability Management
+        * Internal and external priv/non-priv vulnerability scans
+        * Regular pen tests (include automated)
+        * Consider agents for critical resources
+    * Application Development Security
+        * SAST in dev pipeline
+        * SCA
+        * DAST and IAST where possible
+        * Penetration Testing
+        * Scan repos for credentials and strings
+        * Managed IDs for cloud apps
+        * Standards: AppDev STIG, OWASP
+
+* Patch Management
+    * Feeds
+    * Testing
+    * Rollback
+    * UAT
+
+* Monitoring
+    * Infrastructure Monitoring, Alerting
+    * NOC
+    * SOC, SIEM
+    * Log collection
+
+* Auditing
+    * Scope
+    * Frameworks
+    * Schedule
+    * Map where you stand vs where you need to be
+
+
+
 
 
 
