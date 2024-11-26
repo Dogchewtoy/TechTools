@@ -4,6 +4,8 @@
 **Tools**
 
 * Cyber Security
+    * Active Directory
+        * Netwrix (multiple tools)
     * SIEMs
         * Splunk
         * LogRhythm

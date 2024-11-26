@@ -40,7 +40,7 @@
 **Cloud**
 
 * Azure
-    * Johsn Savill Tech Training: https://www.youtube.com/@NTFAQGuy
+    * John Savill Tech Training: https://www.youtube.com/@NTFAQGuy
     * Microsoft Learn: https://learn.microsoft.com/en-us/
     * https://techcommunity.microsoft.com/blog/azurearcblog/introducing-azure-local-cloud-infrastructure-for-distributed-locations-enabled-b/4296017
     * https://news.microsoft.com/ignite-2024-book-of-news/
