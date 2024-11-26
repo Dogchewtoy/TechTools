@@ -10,7 +10,6 @@
 
 **Categories and Areas of Opportunity**
 
-
 * Access Control
     * Good password policies - with an eye towards modern authentication (no/long password exp, MFA with geolocation, PIN/biometric, and perhaps physical Yubi-style key for admins)
     * Multifactor auth with soft token on user devices, making sure the MFA request and confirmation come from the same network or are geographically close
@@ -105,6 +104,7 @@
     * Map where you stand vs where you need to be
 
 **Security Architecture**
+
     * Endpoint
         * Device: AV, EDR, XDR, HIPS, disk encryption, MDM, device location
         * Account: MFA, Conditional Access, UBA, Least Privilege, PIM/PAM
