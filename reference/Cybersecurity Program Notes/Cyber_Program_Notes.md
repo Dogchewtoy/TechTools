@@ -8,6 +8,8 @@
 * Incident Management Policy
 * Supporting Policies from the applicable RM Framework (media handling, physical security, supply chain, etc.)
 
+**Categories and Areas of Opportunity**
+
 
 * Access Control
     * Good password policies - with an eye towards modern authentication (no/long password exp, MFA with geolocation, PIN/biometric, and perhaps physical Yubi-style key for admins)
@@ -84,7 +86,25 @@
     * Spills
     * Decommission/Destruction
 
-* Security Architecture
+* Patch Management
+    * Feeds
+    * Testing
+    * Rollback
+    * UAT
+
+* Monitoring
+    * Infrastructure Monitoring, Alerting
+    * NOC
+    * SOC, SIEM
+    * Log collection
+
+* Auditing
+    * Scope
+    * Frameworks
+    * Schedule
+    * Map where you stand vs where you need to be
+
+**Security Architecture**
     * Endpoint
         * Device: AV, EDR, XDR, HIPS, disk encryption, MDM, device location
         * Account: MFA, Conditional Access, UBA, Least Privilege, PIM/PAM
@@ -107,23 +127,7 @@
         * Managed IDs for cloud apps
         * Standards: AppDev STIG, OWASP
 
-* Patch Management
-    * Feeds
-    * Testing
-    * Rollback
-    * UAT
 
-* Monitoring
-    * Infrastructure Monitoring, Alerting
-    * NOC
-    * SOC, SIEM
-    * Log collection
-
-* Auditing
-    * Scope
-    * Frameworks
-    * Schedule
-    * Map where you stand vs where you need to be
 
 
 
