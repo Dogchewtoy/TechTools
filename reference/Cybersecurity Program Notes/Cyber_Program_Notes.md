@@ -126,7 +126,21 @@
     * Scan repos for credentials and strings
     * Managed IDs for cloud apps
     * Standards: AppDev STIG, OWASP
-
+* Microsoft Directory Security
+    * ADDS
+        * Kerberos
+            * Pass the hash
+            * kerberoasting
+            * SPNs
+            * GPO
+            * Limit Domain Admins
+        * Disable NTLM
+    * Entra ID/Azure
+        * Primary Refresh Token (PRT)
+        * Token Stealing
+        * Graph api abuse
+* VMWare Security
+    * Play vulnerability (AD Group)
 
 
 
