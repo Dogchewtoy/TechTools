@@ -44,6 +44,7 @@
     * Microsoft Learn: https://learn.microsoft.com/en-us/
     * https://techcommunity.microsoft.com/blog/azurearcblog/introducing-azure-local-cloud-infrastructure-for-distributed-locations-enabled-b/4296017
     * https://news.microsoft.com/ignite-2024-book-of-news/
+    * https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-all-users-copilot-ai-security
 
 * AWS
 * GCP
