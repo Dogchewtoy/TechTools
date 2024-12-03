@@ -30,6 +30,10 @@
         * HorizonAI
         * Bjorn (Raspberry Pi network scanner): https://github.com/infinition/Bjorn
         * Road Tools: https://github.com/dirkjanm/ROADtools
+        * Active Directory
+            * Ping Castle: https://pingcastle.com
+            * Locksmith (AD Cert Services): https://github.com/trimarcjake/locksmith
+            
     * Vulnerability Management 
         * Vulnerator: 
             * https://github.com/Vulnerator/Vulnerator/wiki

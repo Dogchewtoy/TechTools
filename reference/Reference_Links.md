@@ -30,6 +30,8 @@
 * Windows Hello/MFA and Login Process
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/%e2%80%9cwhy-are-my-users-not-prompted-for-mfa-as-expected%e2%80%9d/1449032
     * https://www.wiresandwi.fi/blog/windows-network-authentication-sequence
+* One-Off Links
+    * https://karim-ashraf.gitbook.io/karim_ashraf_space
 
 **Architecture**
 * https://wstomv.win.tue.nl/edu/2im24+2im25/add.html
