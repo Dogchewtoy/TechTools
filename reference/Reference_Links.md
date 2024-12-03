@@ -6,6 +6,7 @@
 * https://www.cisa.gov/sites/default/files/2024-11/aa24-317a-2023-top-routinely-exploited-vulnerabilities.pdf
 * https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1299.pdf
 * https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf
+* Microsoft Infrastructure Security Blog: https://techcommunity.microsoft.com/category/cis/blog/coreinfrastructureandsecurityblog
 * DISA STIGS and STIG Viewer: https://public.cyber.mil/stigs/
 * CISA Training: https://niccs.cisa.gov/education-training/cisa-learning
 * CIS Benchmarks: https://www.cisecurity.org/cis-benchmarks
@@ -30,6 +31,13 @@
 * Windows Hello/MFA and Login Process
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/%e2%80%9cwhy-are-my-users-not-prompted-for-mfa-as-expected%e2%80%9d/1449032
     * https://www.wiresandwi.fi/blog/windows-network-authentication-sequence
+* Active Directory
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-1-%E2%80%93-disabling-ntlmv1/3934787
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-2-%E2%80%93-removing-smbv1/3988317
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-3-%E2%80%93-enforcing-ldap-signing/4066233
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-4-%E2%80%93-enforcing-aes-for-kerberos/4114965
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-5-%E2%80%93-enforcing-ldap-channel-binding/4235497
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-6-%E2%80%93-enforcing-smb-signing/4272168
 * One-Off Links
     * https://karim-ashraf.gitbook.io/karim_ashraf_space
 
