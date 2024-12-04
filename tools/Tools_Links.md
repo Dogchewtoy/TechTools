@@ -33,7 +33,7 @@
         * Active Directory
             * Ping Castle: https://pingcastle.com
             * Locksmith (AD Cert Services): https://github.com/trimarcjake/locksmith
-        * Vectra AI Halberd (cloud scanner): https://www.vectra.ai/blog/halberd-the-open-source-tool-democratizing-multi-cloud-security-testing
+        * Vectra AI Halberd (cloud scanner): https://www.vectra.ai/blog/halberd-the-open-source-tool-democratizing-multi-cloud-security-testing, https://github.com/vectra-ai-research/Halberd
         * Blindbrute SQL Injection Tool: https://github.com/c3llkn1ght/BlindBrute
 
     * Vulnerability Management 
