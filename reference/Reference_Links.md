@@ -38,6 +38,9 @@
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-4-%E2%80%93-enforcing-aes-for-kerberos/4114965
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-5-%E2%80%93-enforcing-ldap-channel-binding/4235497
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-6-%E2%80%93-enforcing-smb-signing/4272168
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/monitoring-microsoft-sentinel-reports-with-dashboard-hub--power-bi/4203870
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/implementing-governance-for-your-azure-cloud-using-azure-policy/4251248
+    * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/token-protection-by-using-microsoft-entra-id-/4302207
 * One-Off Links
     * https://karim-ashraf.gitbook.io/karim_ashraf_space
 
