@@ -43,6 +43,7 @@
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/token-protection-by-using-microsoft-entra-id-/4302207
 * One-Off Links
     * https://karim-ashraf.gitbook.io/karim_ashraf_space
+    * https://www.reddit.com/r/cybersecurity/comments/iu17uu/cybersec_cheat_sheets_in_all_flavors_huge_list/
 
 **Architecture**
 * https://wstomv.win.tue.nl/edu/2im24+2im25/add.html
