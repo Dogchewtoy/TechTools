@@ -41,6 +41,7 @@
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/monitoring-microsoft-sentinel-reports-with-dashboard-hub--power-bi/4203870
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/implementing-governance-for-your-azure-cloud-using-azure-policy/4251248
     * https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/token-protection-by-using-microsoft-entra-id-/4302207
+    * https://learn.microsoft.com/en-us/entra/identity/monitoring-health/overview-recommendations#email-notifications-preview
 * One-Off Links
     * https://karim-ashraf.gitbook.io/karim_ashraf_space
     * https://www.reddit.com/r/cybersecurity/comments/iu17uu/cybersec_cheat_sheets_in_all_flavors_huge_list/
@@ -48,7 +49,7 @@
     * https://www.iansresearch.com/resources/all-blogs/post/security-blog/2023/11/30/new-ciso-priority-checklist
     * https://www.iansresearch.com/resources/all-blogs/post/security-blog/2023/08/15/how-to-develop-a-more-holistic-risk-management-program
     * https://docs.google.com/document/d/1mCCq-5Baca9z9BghpjPbhwjhu8wR2_98arxO7qnkNXw/preview?tab=t.0
-    
+
 
 **Architecture**
 * https://wstomv.win.tue.nl/edu/2im24+2im25/add.html
